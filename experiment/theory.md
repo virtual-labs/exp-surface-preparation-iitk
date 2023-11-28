@@ -1,16 +1,18 @@
-Metallography is the study of the microstructure of metals and alloys using microscopy. It is the art and science of preparing, interpreting, and analyzing microstructures in materials to understand materials behavior and performance better. The method is used to evaluate metallic materials in various industries, including the aerospace industry, the automotive industry, and parts of the construction industry. It is also used for process control, including examining defects that appear in finished or partly finished products, as well as the studies of parts that have failed during service. It is an essential branch of the Metallurgical Engineering.<br> 
-A well-prepared metallographic specimen is:<br> 
+Metallography is the study of the microstructure of metals and alloys using microscopy. It is the art and science of preparing, interpreting, and analyzing microstructures in materials to understand materials behavior and performance better. The method is used to evaluate metallic materials in various industries, including the aerospace industry, the automotive industry, and parts of the construction industry. It is also used for process control, including examining defects that appear in finished or partly finished products, as well as the studies of parts that have failed during service. It is an essential branch of the Metallurgical Engineering.<br>
+
+<b>A well-prepared metallographic specimen is:</b><br> 
 * A representative sample<br> 
 * Sectioned, ground, and polished to minimize disturbed or flowed surface metal caused by mechanical deformation and thus to allow the true microstructure to be revealed by etching.<br> 
 * Free from polishing scratches and pits and liquid staining<br> 
-* Flat enough to permit examination by optical microscope or SEM.<br> 
-Various steps involved in the specimen preparation and the significance of each step:<br>  
+* Flat enough to permit examination by optical microscope or SEM.<br>
+
+<b>Various steps involved in the specimen preparation and the significance of each step:</b><br>  
 Many steps in the preparation of metallographic specimens described here are also applicable in other types of metallographic studies, such as electron microscopy, micro-hardness testing, quantitative measurement of constituents of structures, and electron microprobe analysis. Preparation of metallographic specimens generally requires five primary operations:<br> 
-1	Sectioning<br> 
-2	Mounting (which is necessary when the sample cannot be held properly due to its shape and/or size while polishing)<br> 
-3	Grinding<br> 
-4 Polishing<br> 
-5	Etching<br> <br>
+<b>1</b>	Sectioning<br> 
+<b>2</b>	Mounting (which is necessary when the sample cannot be held properly due to its shape and/or size while polishing)<br> 
+<b>3</b>	Grinding<br> 
+<b>4</b> Polishing<br> 
+<b></b>5	Etching<br> <br>
 <b>These operations are listed below in the order they are performed.</b><br>  
 <b> 1	Sectioning</b><br> 
 Separate test pieces or coupons attached to castings or forgings should be designed so that a minimum of sectioning is required for producing metallographic specimens. Sectioning becomes necessary when studying parts that have failed in service, where a specimen must be taken from a large block of material. Therefore, metallographic studies of such samples often involve more than one sectioning operation.<br> 
