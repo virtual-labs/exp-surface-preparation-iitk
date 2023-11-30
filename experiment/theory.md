@@ -6,14 +6,14 @@ Metallography is the study of the microstructure of metals and alloys using micr
 * Free from polishing scratches and pits and liquid staining<br> 
 * Flat enough to permit examination by optical microscope or SEM.<br>
 
-<b>Various steps involved in the specimen preparation and the significance of each step:</b><br>  
+<b>Various steps involved in the specimen preparation and the significance of each step:</b>  
 Many steps in the preparation of metallographic specimens described here are also applicable in other types of metallographic studies, such as electron microscopy, micro-hardness testing, quantitative measurement of constituents of structures, and electron microprobe analysis. Preparation of metallographic specimens generally requires five primary operations:<br> 
 <b>1</b>	Sectioning<br> 
 <b>2</b>	Mounting (which is necessary when the sample cannot be held properly due to its shape and/or size while polishing)<br> 
 <b>3</b>	Grinding<br> 
 <b>4</b> Polishing<br> 
 <b></b>5	Etching<br> <br>
-<b>These operations are listed below in the order they are performed.</b><br>  
+<b>These operations are listed below in the order they are performed.</b>  
 <b> 1	Sectioning</b><br> 
 Separate test pieces or coupons attached to castings or forgings should be designed so that a minimum of sectioning is required for producing metallographic specimens. Sectioning becomes necessary when studying parts that have failed in service, where a specimen must be taken from a large block of material. Therefore, metallographic studies of such samples often involve more than one sectioning operation.<br> 
 Many metallographic studies require more than one specimen. For example, a study of deformation in wrought metals usually requires two sections- one perpendicular to, and the other parallel to, the central axis of the direction of deformation. Failed parts may best be studied by selecting a specimen that intersects the origin of the failure if the origin can be identified on the surface. Depending on the type of failure, it may be necessary to take several specimens from the area of failure and adjacent areas.<br><br> 
