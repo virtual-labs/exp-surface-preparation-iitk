@@ -12,7 +12,7 @@ Many steps in the preparation of metallographic specimens described here are als
 <b>2</b>	Mounting (which is necessary when the sample cannot be held properly due to its shape and/or size while polishing)<br> 
 <b>3</b>	Grinding<br> 
 <b>4</b> Polishing<br> 
-<b></b>5	Etching<br> <br>
+<b>5</b>	Etching<br> <br>
 <b>These operations are listed below in the order they are performed.</b>  
 <b> 1	Sectioning</b><br> 
 Separate test pieces or coupons attached to castings or forgings should be designed so that a minimum of sectioning is required for producing metallographic specimens. Sectioning becomes necessary when studying parts that have failed in service, where a specimen must be taken from a large block of material. Therefore, metallographic studies of such samples often involve more than one sectioning operation.<br> 
@@ -24,7 +24,7 @@ Not all materials or specimens can be mounted in thermosetting or thermoplastic 
 Cold Mounting requires no pressure and little heat and is a means of mounting large specimens more rapidly than possible by compression mounting. Epoxy resins are the most widely used cold mounting materials. They are hard and adhere tenaciously to most metallurgical, mineral, and ceramic specimens.<br><br> 
 <b> 3	Grinding</b>  
 Grinding is the most important operation in specimen preparation. During grinding, the operator has the opportunity to minimize mechanical surface damage that subsequent polishing operations can remove. Even if sectioning is done carelessly, resulting in a severely damaged surface, the damage can be eliminated by prolonged grinding. However, prolonged grinding should be avoided since it might lead to excess heating or surface damage.<br> <br>
-<image src="images/Picture1.png"><br><br>
+<center><image src="images/Picture1.png"></image></center><br><br>
 Grinding is accomplished by abrading the specimen surface through a sequence of operations using progressively finer abrasive grits. Grit sizes ranging from 60 mesh to 150 mesh are usually regarded as coarse abrasives, and grit sizes ranging from 180 mesh to 600 mesh as fine abrasives. Grinding should commence with the coarse grit size for making an initial flat surface and remove the effects of sectioning. Hack-sawed, band-sawed, or rough surfaces usually require abrasive grit sizes in the 80 to 150 mesh range. Grinding should be done sequentially, from the coarser to the finer. A satisfactory grinding sequence might involve 180, 240, 400, and 600 mesh grit sizes. Grinding aims to remove the oxide layer's damaged layer or uneven surfaces that might have formed during the last sectioning operation. However, the depth of cold-worked metal is roughly inversely proportional to the hardness of the specimen and maybe 10 to 50 times the abrasive particle's penetration depth.<br>
 To ensure the complete elimination of the previous grinding scratches found by visual inspection, the direction of grinding must be changed by 90o from the one stage of grinding to the next stage. In addition, microscopic examination of the various ground surfaces during the grinding sequence may be worthwhile in evaluating the effect of grinding. Each ground surface should have scratches that are clean-cut and uniform in size, with no evidence of previous grinding scratches. Cleaning before going to the next stage of grinding is always helpful.<br><br>
 <b>3.1 Grinding Mediums</b><br>
