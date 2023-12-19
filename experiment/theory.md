@@ -40,16 +40,16 @@ Electro polishing does not disturb any metal on the specimen surface and is idea
 Metals, especially stainless steel, and other alloys can have their surfaces treated using an electrochemical process called electropolishing. This procedure is intended to leave a metal surface with a smooth, polished, and frequently visually appealing finish by removing a predetermined amount of material. Electropolishing is frequently used in a variety of industries where a superior surface finish is essential, such as the medical, pharmaceutical, aerospace, and electronics sectors.<br><br>
 <b>4.3 Principle-</b><br>
 The foundation of electropolishing is the anodic dissolution principle, which involves using an electrolytic cell to selectively remove metal from a workpiece's surface. Electropolishing produces a smoother and more reflective finish by uniformly removing material from the entire surface, in contrast to traditional polishing techniques.<br><br>
-<b>4.4 Equipment and setup-</b><br>
+<b>4.4 Equipment and setup-</b><br><br>
 •	<b> Electrolyte bath</b>- An appropriate electrolyte solution is made, usually with certain additives and acids. Mixtures of sulfuric acid, phosphoric acid, and other chemicals are common electrolytes.<br><br>
 •	<b> Cathode and anode</b>- The anode of the electropolished workpiece is the same as the cathode, which is also submerged in the electrolyte bath and is typically composed of stainless steel. The anode and cathode are connected by an electric current.<br><br>
 •	<b> Power supply</b>- Electric current is applied between the anode and cathode using a direct current (DC) power supply.<br><br>
-<b>4.5 Advantages of electropolishing-</b><br>
+<b>4.5 Advantages of electropolishing-</b><br><br>
 •	<b> Improved surface finishing</b>- Surface roughness is reduced by electropolishing, which creates a smooth, mirror-like surface.<br><br>
 •	<b> Deburring and smoothing</b>- The removal of burrs and sharp edges improves component safety.<br><br>
 •	<b> Corrosion resistance</b>- By passivating the metal surface, the procedure increases its corrosion resistance.<br><br>
 •	<b> Micro finish improvement</b>- Surface finishes as fine as microinches can be obtained by electropolishing.<br><br>
-<b>4.6 Applications:</b><br>
+<b>4.6 Applications:</b><br><br>
 •	<b> Medical devices</b>- Surgical instruments and implants<br><br>
 •	<b> Aerospace</b>-Components for aircrafts and spacecrafts<br><br>
 •	<b> Automotive</b>- Engine components and decorative parts<br><br>
