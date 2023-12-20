@@ -57,7 +57,7 @@ The foundation of electropolishing is the anodic dissolution principle, which in
 *	<b> Medical devices</b><br> Surgical instruments and implants<br><br>
 *	<b> Aerospace</b><br>Components for aircrafts and spacecrafts<br><br>
 *	<b> Automotive</b><br> Engine components and decorative parts<br><br>
-*	<b> Electronic</b><br> Semiconductor and electronic components<br><br>
+*	<b> Electronic</b><br> Semiconductor and electronic components<br>
 Enhancing the surface qualities of metal components through electropolishing offers several advantages, including improved corrosion resistance, functional performance, and aesthetic appeal. Its extensive application in a variety of industries attests to its significance for engineering and manufacturing procedures.<br>
 
 <b>3.5  Etching</b><br>
