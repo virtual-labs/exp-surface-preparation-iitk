@@ -6,7 +6,7 @@
 * Free from polishing scratches and pits and liquid staining<br> 
 * Flat enough to permit examination by optical microscope or SEM.<br>
 
-3. <b>Various steps involved in the specimen preparation and the significance of each step</b><br>  
+3. <b>Various steps involved in the specimen preparation and the significance of each step</b>  
 Many steps in the preparation of metallographic specimens described here are also applicable in other types of metallographic studies, such as electron microscopy, micro-hardness testing, quantitative measurement of constituents of structures, and electron microprobe analysis. Preparation of metallographic specimens generally requires five primary operations:<br> 
 <b>3.1</b>	Sectioning<br> 
 <b>3.2</b>	Mounting (which is necessary when the sample cannot be held properly due to its shape and/or size while polishing)<br> 
