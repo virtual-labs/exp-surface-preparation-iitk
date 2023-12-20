@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Simulator 1</title>
+
+    <style>
+        a {
+            text-decoration: none;
+        }
+
+        .border {
+            border: 1px solid black;
+        }
+
+        .text {
+            background-color: yellow;
+            border-radius: 21px;
+            font-size: 22px;
+            margin-left: 50px;
+            margin-right: 50px;
+            padding: 5px;
+        }
+
+
+        .microstructure-images {
+            width: 100%;
+            height: auto;
+            padding: 5px;
+            cursor: pointer;
+        }
+
+        .micro-image-drop {
+            width: 180px;
+            height: 130px;
+            /* add dashed border on dropped image */
+            border: 2px dashed #ccc;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .center-box-name{
+            padding: 20px;
+        }
+
+
+        .buttons {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btn {
+            margin: 5px;
+            font-size: 20px;
+        }
+
+        #result {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+            background-color: rgb(238, 229, 172);
+            font-size: 20px;
+        }
+
+        #finalimage {
+            box-shadow: 0px 1px 41px 23px rgba(0, 0, 0, 0.42);
+            -webkit-box-shadow: 0px 1px 41px 23px rgba(0, 0, 0, 0.42);
+            -moz-box-shadow: 0px 1px 41px 23px rgba(0, 0, 0, 0.42);
+        }
+
+        div {
+            font-size: 20px;
+        }
+
+        #sample {
+            border-radius: 21px;
+            width: 180px;
+            height: 130px;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(255, 111, 89, 0.964);
+        }
+
+        #areagrinding {
+            background-color: rgb(100 161 255 / 58%);
+        }
+
+        #areapaperpolishing {
+            background-color: rgba(67, 184, 139, 0.577);
+        }
+
+        #areacoarse {
+            background-color: lightyellow;
+        }
+
+        #areafine {
+            background-color: #9feff0;
+        }
+
+        #areaetching {
+            background-color: #ccc;
+        }
+
+        #areamounting {
+            background-color: #ccdaa1;
+        }
+
+        #areamicroscopy {
+            background-color: #edcfaf;
+        }
+
+        .dragged-button {
+            background-color: #edcfaf;
+            color: blue;
+        }
+
+        .arrow {
+            font-size: 80px;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            color: darkblue;
+        }
+
+        .flexArrow {
+            display: flex;
+        }
+    </style>
+
+
+    <script>
+        var correctOrder = [
+            { buttonId: 'btngrinding', areaId: 'areagrinding' },
+            { buttonId: 'btncoarse', areaId: 'areacoarse' },
+            { buttonId: 'btnfine', areaId: 'areafine' },
+            { buttonId: 'btnetching', areaId: 'areaetching' },
+            { buttonId: 'btnmounting', areaId: 'areamounting' },
+            { buttonId: 'btnmicroscopy', areaId: 'areamicroscopy' }
+        ];
+
+
+        var currentOrder = [];
+
+        function allowDrop(event) {
+            event.preventDefault();
+        }
+
+        function drag(event) {
+            draggedMicrostructure = event.target;
+
+        }
+
+        function drop(event, dropAreaId) {
+            console.log("drop area id =", dropAreaId);
+            event.preventDefault();
+
+            // Get the button and area ids
+            var buttonId = draggedMicrostructure.id;
+
+            // Check if the dropped button and area match the correct order at the current position
+            var correctPosition = currentOrder.length;
+            console.log("current order length =", currentOrder.length)
+            console.log("correct popsition=", correctPosition)
+            var isCorrect = checkCorrectOrder(buttonId, dropAreaId, correctPosition);
+
+            if (isCorrect) {
+                // Add the correct order to the current order
+                currentOrder.push({ buttonId: buttonId, areaId: dropAreaId });
+
+                // Set the content of the dropped area to the text of the dragged button
+                document.getElementById(dropAreaId).innerText = draggedMicrostructure.innerText;
+                // Add a class to change the color of the dragged button
+                draggedMicrostructure.classList.add('dragged-button');
+
+                // Check if all buttons are in the correct order
+                if (currentOrder.length === correctOrder.length) {
+                    showCongratulationsModal();
+                } else {
+                    showCorrectModal();
+                }
+            } else {
+                // Show the wrong order modal
+                showWrongOrderModal();
+            }
+        }
+
+
+        function checkCorrectOrder(buttonId, areaId, position) {
+            if (position < correctOrder.length) {
+                return correctOrder[position].buttonId === buttonId && correctOrder[position].areaId === areaId;
+            }
+            return false;
+        }
+
+
+        function showCorrectModal() {
+            // Set content to "You are correct."
+            document.getElementById('result').innerText = 'You are correct.';
+            document.getElementById('result').style.color = "green";
+
+
+            // Clear content after 2 seconds
+            setTimeout(function () {
+                document.getElementById('result').innerText = '';
+            }, 2000);
+        }
+
+        function showWrongOrderModal() {
+            // Set content to "Oops! The steps are not arranged in the correct order. Please try again."
+            document.getElementById('result').innerText = 'Oops! The steps are not arranged in the correct order. Please try again.';
+            document.getElementById('result').style.color = "red";
+
+
+            // Clear content after 2 seconds
+            setTimeout(function () {
+                document.getElementById('result').innerText = '';
+            }, 2000);
+        }
+
+        function showCongratulationsModal() {
+            // Set content to "Congratulations! You arranged the steps correctly."
+            document.getElementById('result').innerText = 'Congratulations! You arranged the steps correctly.';
+
+            // Clear content after 2 seconds
+            setTimeout(function () {
+                document.getElementById('result').innerText = '';
+                document.getElementById('finalimage').style.display = 'block'
+
+                // Implement any additional logic you want after the message clears
+            }, 4000);
+        }
+
+        function resetPage() {
+            // Reset the current order and remove borders
+            currentOrder = [];
+            var dropAreas = document.querySelectorAll('.micro-image-drop');
+            dropAreas.forEach(function (dropArea) {
+                dropArea.classList.remove('correct-order', 'wrong-order');
+            });
+
+            // Reload the page
+            location.reload();
+        }
+    </script>
+
+
+
+</head>
+
+<body>
+    <button type="button" class="btn btn-outline-info mx-2 my-2"><a href="index.html"> Go to the main page</a></button>
+    <button type="button" class="btn btn-outline-info m-3"><a href="index.html">Back </a></button>
+    <button type="button" class="btn btn-outline-info m-3"><a href="Simulator2.html">Next </a></button>
+    <h2 class="d-flex justify-content-center align-items-center"> Simulator 1 </h2>
+    <p class="d-flex justify-content-center align-items-center text">The simulator will be solved when all the steps are
+        completely arranged in sequential order. Drag done the steps into the box and put in correct sequence to solve
+        the simulator
+    </p>
+
+
+
+    <!--  drag button container  -->
+    <div class="container ">
+        <div class="row">
+            <ul type="none" class=" buttons">
+                <li>
+                    <button class="btn btn-success" id="btnmicroscopy" draggable="true"
+                        ondragstart="drag(event)">Microscopy</button>
+                </li>
+                <li>
+                    <button class="btn btn-success" id="btngrinding" draggable="true"
+                        ondragstart="drag(event)">Grinding</button>
+                </li>
+                <li>
+                    <button class="btn btn-success" id="btnfine" draggable="true" ondragstart="drag(event)">
+                        Cloth Polishing (Fine)</button>
+                </li>
+                <li>
+                    <button class="btn btn-success" id="btncoarse" draggable="true" ondragstart="drag(event)">
+                        Cloth Polishing (Coarse)</button>
+                </li>
+                <li>
+                    <button class="btn btn-success" id="btnetching" draggable="true" ondragstart="drag(event)">
+                        Etching</button>
+                </li>
+                <li>
+                    <button class="btn btn-success" id="btnmounting" draggable="true" ondragstart="drag(event)">Mounting
+                        for microscopy</button>
+                </li>
+            </ul>
+
+            <span id="result"></span>
+        </div>
+    </div>
+
+
+    <!-- drop area  -->
+    <div class="container">
+        <button class="btn btn-danger" onclick="resetPage()">Reset</button>
+
+        <div class="row">
+            <div class="col-md-2 flexArrow">
+                <div id="sample">Sample</div>
+                <span class="arrow">&#8594;</span>
+            </div>
+            <div class="col-md-2 flexArrow">
+                <div class="micro-image-drop center-box-name" id="areagrinding" ondrop="drop(event, 'areagrinding')"
+                    ondragover="allowDrop(event)">1 - Drop here..
+                </div>
+                <span class="arrow">&#8594;</span>
+            </div>
+
+            <div class="col-md-2 flexArrow">
+                <div class="micro-image-drop center-box-name" id="areacoarse" ondrop="drop(event, 'areacoarse')"
+                    ondragover="allowDrop(event)">2 - Drop here..
+                </div>
+                <span class="arrow">&#8594;</span>
+            </div>
+
+            <div class="col-md-2 flexArrow">
+                <div class="micro-image-drop center-box-name" id="areafine" ondrop="drop(event, 'areafine')"
+                    ondragover="allowDrop(event)">3 - Drop here..
+                </div>
+                <span class="arrow">&#8594;</span>
+            </div>
+            <div class="col-md-2 flexArrow">
+                <div class="micro-image-drop center-box-name" id="areaetching" ondrop="drop(event, 'areaetching')"
+                    ondragover="allowDrop(event)">4 - Drop here..
+                </div>
+                <span class="arrow">&#8594;</span>
+            </div>
+            <div class="col-md-2 ">
+                <div class="micro-image-drop center-box-name" id="areamounting" ondrop="drop(event, 'areamounting')"
+                    ondragover="allowDrop(event)">5 - Drop here..
+                </div>
+                <span class="arrow">&#8595;</span>
+            </div>
+        </div>
+
+        <br />
+        <div class="row">
+
+
+            <div class="col-md-2 "></div>
+            <div class="col-md-2 "></div>
+            <div class="col-md-2 "></div>
+            <div class="col-md-2 "></div>
+
+            <div class="col-md-2">
+                <div class="micro-image-drop" id="finalimage" style="display:none">
+                    <img src="images/simulator1.png" alt="" width="100%" height="auto" />
+                </div>
+            </div>
+
+            <div class="col-md-2 flexArrow">
+                <span class="arrow">&#8592;</span>
+                <div class="micro-image-drop center-box-name" id="areamicroscopy" ondrop="drop(event, 'areamicroscopy')"
+                    ondragover="allowDrop(event)">6 - Drop here..</div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
