@@ -39,23 +39,25 @@ Mechanical polishing is frequently used to describe the final polishing procedur
 Even with the most careful mechanical polishing, some disturbed metal, even a very small amount, will remain after the preparation of a metallographic specimen. This is no problem if the specimen is to be etched for structural investigation because etching is usually sufficient to remove the slight layer of disturbed metal. However, electrolytic or chemical polishing is preferred if the specimen is to be examined in the polished condition or if no surface disturbance can be tolerated. The basic principle involved in this technique is anodic dissolution of the sample's surface which results in a leveling and brightening of its surface.<br>
 Electro polishing does not disturb any metal on the specimen surface and is ideally suited for the metallographic preparation of soft metals, most single-phase alloys, and alloys that work harden readily. The disadvantages of electro-polishing include preferential attack in multiphase alloys caused by differences in electrical potential between phases. Proper choice of electrolyte and operating conditions will minimize these disadvantages.<br>
 Metals, especially stainless steel, and other alloys can have their surfaces treated using an electrochemical process called electropolishing. This procedure is intended to leave a metal surface with a smooth, polished, and frequently visually appealing finish by removing a predetermined amount of material. Electropolishing is frequently used in a variety of industries where a superior surface finish is essential, such as the medical, pharmaceutical, aerospace, and electronics sectors.<br><br>
-<b>3.4.3 Principle-</b><br>
+<b>3.4.3 Principle</b><br>
 The foundation of electropolishing is the anodic dissolution principle, which involves using an electrolytic cell to selectively remove metal from a workpiece's surface. Electropolishing produces a smoother and more reflective finish by uniformly removing material from the entire surface, in contrast to traditional polishing techniques.<br><br>
-<b>3.4.4 Equipment and setup</b><br>
-•	<b> Electrolyte bath</b><br> An appropriate electrolyte solution is made, usually with certain additives and acids. Mixtures of sulfuric acid, phosphoric acid, and other chemicals are common electrolytes.<br><br>
-•	<b> Cathode and anode</b><br> The anode of the electropolished workpiece is the same as the cathode, which is also submerged in the electrolyte bath and is typically composed of stainless steel. The anode and cathode are connected by an electric current.<br><br>
-•	<b> Power supply</b><br> Electric current is applied between the anode and cathode using a direct current (DC) power supply.<br><br>
-<b>3.4.5 Advantages of electropolishing-</b><br>
-•	<b> Improved surface finishing</b><br> Surface roughness is reduced by electropolishing, which creates a smooth, mirror-like surface.<br><br>
-•	<b> Deburring and smoothing</b><br> The removal of burrs and sharp edges improves component safety.<br><br>
-•	<b> Corrosion resistance</b><br> By passivating the metal surface, the procedure increases its corrosion resistance.<br><br>
-•	<b> Micro finish improvement</b><br> Surface finishes as fine as microinches can be obtained by electropolishing.<br><br>
-<b>3.4.6 Applications:</b><br>
-•	<b> Medical devices</b><br> Surgical instruments and implants<br><br>
-•	<b> Aerospace</b><br>Components for aircrafts and spacecrafts<br><br>
-•	<b> Automotive</b><br> Engine components and decorative parts<br><br>
-•	<b> Electronic</b><br> Semiconductor and electronic components<br><br>
 
+<b>3.4.4 Equipment and setup</b><br>
+*	<b>Electrolyte bath</b><br> An appropriate electrolyte solution is made, usually with certain additives and acids. Mixtures of sulfuric acid, phosphoric acid, and other chemicals are common electrolytes.<br><br>
+*	<b>Cathode and anode</b><br> The anode of the electropolished workpiece is the same as the cathode, which is also submerged in the electrolyte bath and is typically composed of stainless steel. The anode and cathode are connected by an electric current.<br><br>
+*	<b> Power supply</b><br> Electric current is applied between the anode and cathode using a direct current (DC) power supply.<br><br>
+
+<b>3.4.5 Advantages of electropolishing-</b><br>
+*	<b> Improved surface finishing</b><br> Surface roughness is reduced by electropolishing, which creates a smooth, mirror-like surface.<br><br>
+*	<b> Deburring and smoothing</b><br> The removal of burrs and sharp edges improves component safety.<br><br>
+*	<b> Corrosion resistance</b><br> By passivating the metal surface, the procedure increases its corrosion resistance.<br><br>
+*	<b> Micro finish improvement</b><br> Surface finishes as fine as microinches can be obtained by electropolishing.<br><br>
+
+<b>3.4.6 Applications:</b><br>
+*	<b> Medical devices</b><br> Surgical instruments and implants<br><br>
+*	<b> Aerospace</b><br>Components for aircrafts and spacecrafts<br><br>
+*	<b> Automotive</b><br> Engine components and decorative parts<br><br>
+*	<b> Electronic</b><br> Semiconductor and electronic components<br><br>
 Enhancing the surface qualities of metal components through electropolishing offers several advantages, including improved corrosion resistance, functional performance, and aesthetic appeal. Its extensive application in a variety of industries attests to its significance for engineering and manufacturing procedures.<br>
 
 <b>3.5  Etching</b><br>
