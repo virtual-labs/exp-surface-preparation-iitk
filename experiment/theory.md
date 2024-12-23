@@ -66,7 +66,7 @@ The foundation of electropolishing is the anodic dissolution principle, which in
 *	<b> Aerospace</b><br>Components for aircrafts and spacecrafts<br><br>
 *	<b> Automotive</b><br> Engine components and decorative parts<br><br>
 *	<b> Electronic</b><br> Semiconductor and electronic components<br>
-Enhancing the surface qualities of metal components through electropolishing offers several advantages, including improved corrosion resistance, functional performance, and aesthetic appeal. Its extensive application in a variety of industries attests to its significance for engineering and manufacturing procedures.<br>
+Enhancing the surface qualities of metal components through electropolishing offers several advantages, including improved corrosion resistance, functional performance, and aesthetic appeal. Its extensive application in a variety of industries attests to its significance for engineering and manufacturing procedures.<br><br>
 
 <b>3.5  Etching</b><br>
 Metallographic etching is used to reveal the structural characteristics of a metal. This is essential since these structural characteristics are not visible in the polished mirror-like surface of the metal. It can be used for phase identification, dislocation density calculation (etch pitting), and orientation studies. The principle of etching multiphase alloys is based on the preferential attack (different rates of electrochemical dissolution of phases in the etchant) or preferential staining of one or more phases because of differences in chemical composition and grain orientation. Before being etched, a specimen should be inspected for polishing defects, such as scratches, pits, relief polish, comet tails, pulled-out inclusions, and voids.<br><br>
