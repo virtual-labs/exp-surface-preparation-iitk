@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Simulator 3</title>
+
+    <style>
+        a {
+            text-decoration: none;
+        }
+
+        .text {
+            background-color: yellow;
+            border-radius: 21px;
+            font-size: 22px;
+            margin-left: 50px;
+            margin-right: 50px;
+            padding: 10px;
+        }
+
+
+        .main-title {
+            color: blue;
+            font-size: 22px;
+            font-weight: 500;
+            margin: 5px;
+            padding: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .border {
+            border: 11px solid rgb(63, 62, 62);
+        }
+
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .microstructure-images {
+            width: 100%;
+            height: auto;
+            margin: 5px;
+            padding: 3px;
+            cursor: pointer;
+        }
+
+        .sample-rotation {
+            width: 100%;
+            height: auto;
+            padding: 5px;
+        }
+
+        .highlight {
+            background-color: rgb(136, 255, 0);
+            border: 2px solid red;
+            color: black;
+        }
+
+        .selected {
+            box-shadow: 2px -2px 43px 10px rgba(25, 135, 84, 0.8);
+            background-color: #198754;
+            color: white;
+
+        }
+
+        .highlighted-img {
+            -webkit-box-shadow: 2px -2px 43px 10px rgba(25, 135, 84, 0.8);
+            -moz-box-shadow: 2px -2px 43px 10px rgba(25, 135, 84, 0.8);
+            box-shadow: 2px -2px 43px 10px rgba(25, 135, 84, 0.8);
+        }
+    </style>
+
+</head>
+
+<body>
+    <button type="button" class="btn btn-outline-info mx-2 my-2"><a href="index.html">Go to main page</a></button>
+    <button type="button" class="btn btn-outline-info m-3"><a href="Simulator2.html">Back</a></button>
+    <h2 class="d-flex justify-content-center align-items-center">Simulator 3</h2>
+    <p class="d-flex justify-content-center align-items-center text"> In this simulator, emery abrasive papers with
+        their corresponding grit sizes are given in ascending order. The polishing direction while polishing the sample
+        using the abrasive paper is also given. Observed the microstructures and select the correct one based on the
+        scratches and the roughness.
+    </p>
+
+
+    <div class="container mb-2">
+        <div class="row">
+            <span class="main-title">Polishing Papers </span>
+            <div class="col-md-2 ">
+                <img class="polishing-paper" id="180" src="./images/polishingpaper1.png" alt="" />
+            </div>
+            <div class="col-md-2 ">
+                <img class="polishing-paper" id="320" src="./images/polishingpaper2.png" alt="" />
+            </div>
+            <div class="col-md-2 ">
+                <img class="polishing-paper" id="600" src="./images/polishingpaper3.png" alt="" />
+            </div>
+            <div class="col-md-2 ">
+                <img class="polishing-paper" id="1200" src="./images/polishingpaper4.png" alt="" />
+            </div>
+            <div class="col-md-2 ">
+                <img class="polishing-paper" id="2400" src="./images/polishingpaper5.png" alt="" />
+            </div>
+            <div class="col-md-2 ">
+                <img class="polishing-paper" id="3600" src="./images/polishingpaper6.png" alt="" />
+            </div>
+
+        </div>
+
+
+        <div class="row">
+            <span class="main-title">Sample rotations</span>
+            <div class="col-md-2 "></div>
+            <div class="col-md-2 "></div>
+            <div class="col-md-2 border">
+                <img class="sample-rotation" id="theta0" src="./images/samplerotationzero.png" alt="" />
+            </div>
+            <div class="col-md-2 border ">
+                <img class="sample-rotation" id="theta90" src="./images/samplerotationninty.png" alt="" />
+            </div>
+            <div class="col-md-2 "></div>
+            <div class="col-md-2 "></div>
+        </div>
+
+        <div class="row">
+            <span class="main-title"> Original scratches at 100X magnification</span>
+
+            <div class="col-md-2 border">
+                <img class="microstructure-images" id="600m" src="./images/600m.png" alt="" />
+            </div>
+
+            <div class="col-md-2 border">
+                <img class="microstructure-images" id="320m" src="./images/320m.png" alt="" />
+            </div>
+
+            <div class="col-md-2 border">
+                <img class="microstructure-images" id="2400m" src="./images/2400m.png" alt="" />
+            </div>
+            <div class="col-md-2 border">
+                <img class="microstructure-images" id="180m" src="./images/180m.png" alt="" />
+            </div>
+            <div class="col-md-2 border">
+                <img class="microstructure-images" id="3600m" src="./images/3600m.png" alt="" />
+            </div>
+
+            <div class="col-md-2 border">
+                <img class="microstructure-images" id="1200m" src="./images/1200m.png" alt="" />
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Modal for Complete -->
+    <div class="modal fade" id="quizCompletedModal" tabindex="-1" aria-labelledby="correctMatchModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="correctMatchModalLabel">Congratulations !</h5>
+                    <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                </div>
+                <div class="modal-body">
+                    Quiz completed successfully.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" onclick="location.reload()"> Ok </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for Correct Match -->
+    <div class="modal fade" id="correctMatchModal" tabindex="-1" aria-labelledby="correctMatchModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="correctMatchModalLabel">Correct Match</h5>
+                    <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                </div>
+                <div class="modal-body">
+                    Congratulations! You have made the correct match.
+                </div>
+                <!-- <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" onclick="location.reload()"> ok </button>
+          </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Modal for Error Match -->
+    <div class="modal fade" id="errorMatchModal" tabindex="-1" aria-labelledby="errorMatchModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="errorMatchModalLabel">Error</h5>
+                    <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                </div>
+                <div class="modal-body">
+                    Please choose correct microstructure and sample rotation .
+                </div>
+                <!-- <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" onclick="location.reload()"> ok </button>
+          </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Modal for Missing polishing paper   -->
+    <div class="modal fade" id="errorTypeModal" tabindex="-1" aria-labelledby="errorMatchModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="errorMatchModalLabel">Error</h5>
+                    <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                </div>
+                <div class="modal-body">
+                    Please choose a polishing paper first, and then select the correct microstructure and sample
+                    rotation.
+                </div>
+                <!-- <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" onclick="location.reload()"> ok </button>
+          </div> -->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Add this script to your HTML file -->
+    <script>
+        const correctMatches = {
+            '180': { microstructure: '180m', sample: 'theta0' },
+            '320': { microstructure: '320m', sample: 'theta90' },
+            '600': { microstructure: '600m', sample: 'theta0' },
+            '1200': { microstructure: '1200m', sample: 'theta90' },
+            '2400': { microstructure: '2400m', sample: 'theta0' },
+            '3600': { microstructure: '3600m', sample: 'theta90' },
+        };
+
+        const typeOrder = ['180', '320', '600', '1200', '2400', '3600'];
+        const sampleOrder = ['theta0', 'theta90', 'theta0', 'theta90', 'theta0', 'theta90'];
+        const polishingPaperName = document.querySelectorAll('.polishing-paper');
+        const microstructureImages = document.querySelectorAll('.microstructure-images');
+        const sampleRotationName = document.querySelectorAll('.sample-rotation');
+
+        let correctlyMatchedPolishPaper = 0;
+        let currentPaperIndex = 0;
+        let selectedPaper = '180'; // Set an initial value
+
+        function resetStyles() {
+            polishingPaperName.forEach(name => name.classList.remove('highlight', 'selected', 'disabled'));
+            microstructureImages.forEach(image => image.classList.remove('highlighted-img'));
+            sampleRotationName.forEach(image => image.classList.remove('highlight', 'selected'));
+        }
+
+        function disablePolishingPapers() {
+            polishingPaperName.forEach(name => {
+                if (name.id !== selectedPaper) {
+                    name.classList.add('disabled');
+                }
+            });
+        }
+
+        function enablePolishingPapers() {
+            polishingPaperName.forEach(name => {
+                name.classList.remove('disabled');
+            });
+        }
+
+        function highlightCurrentMaterial() {
+            const currentPolishingPaper = document.getElementById(typeOrder[currentPaperIndex]);
+            const currentSampleRotation = document.getElementById(sampleOrder[currentPaperIndex]);
+
+            resetStyles(); // Reset styles before highlighting
+            currentPolishingPaper.click();
+            currentPolishingPaper.classList.add('selected');
+            currentSampleRotation.classList.add('selected');
+            disablePolishingPapers();
+        }
+
+        // Add click event listeners to all the polishing paper
+        polishingPaperName.forEach(button => {
+            button.addEventListener('click', () => {
+                if (!button.classList.contains('disabled')) {
+                    selectedPaper = button.id;
+                    resetStyles();
+                    button.classList.add('selected');
+                    disablePolishingPapers();
+                }
+            });
+        });
+
+        // Add click event listeners to the microstructure images
+        microstructureImages.forEach(image => {
+            image.addEventListener('click', () => {
+                if (selectedPaper !== null) {
+                    const selectedMicrostructure = image.id;
+                    resetStyles();
+                    enablePolishingPapers();
+                    image.classList.add('highlighted-img');
+
+                    const correctPolishingPaper = correctMatches[selectedPaper].microstructure;
+                    const correctSampleRotation = correctMatches[selectedPaper].sample;
+
+                    document.getElementById(correctPolishingPaper).classList.add('highlight');
+                    document.getElementById(correctSampleRotation).classList.add('highlight');
+
+                    if (selectedMicrostructure === correctMatches[selectedPaper].microstructure) {
+                        correctlyMatchedPolishPaper++;
+
+                        if (currentPaperIndex === typeOrder.length - 1) {
+                            $('#quizCompletedModal').modal('show');
+                        } else {
+                            $('#correctMatchModal').modal('show');
+                            currentPaperIndex++;
+                            highlightCurrentMaterial();
+                        }
+                    } else {
+                        $('#errorMatchModal').modal('show');
+                    }
+                } else {
+                    $('#errorTypeModal').modal('show');
+                }
+            });
+        });
+
+        // Automatically select the first type polishing paper and highlight it on page load
+        window.addEventListener('load', () => {
+            highlightCurrentMaterial();
+        });
+    </script>
+
+
+
+</body>
+
+</html>

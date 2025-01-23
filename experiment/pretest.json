@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. Arrange in the correct order for metallographic sample preparation.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Polishing-Grinding-Etching-Microscopy",
+        "b": "Grinding-Etching- Microscopy- Polishing",
+        "c": "Microscopy- Etching-Polishing- Grinding",
+        "d": "Grinding – Polishing- Etching- Microscopy"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -15,16 +15,67 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2. Types of etching possible on a sample",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Swabbing",
+        "b": "Immersion",
+        "c": "Both",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Choose the correct abrasive used for the cloth polishing.",
+      "answers": {
+        "a": "CeO2",
+        "b": "Fe2O3",
+        "c": "Mg2O3",
+        "d": "Al2O3"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. The purpose of grinding is to",
+      "answers": {
+        "a": "Etch the sample",
+        "b": "Remove the oxide layer damaged layer or uneven surfaces that might have formed during the last sectioning operation",
+        "c": "Create shallowed depth in the sample",
+        "d": "Cut the sample into different parts"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. The most widely used cold mounting material is",
+      "answers": {
+        "a": "Al2O3",
+        "b": "Mg2O3",
+        "c": "Epoxy resin",
+        "d": "All the above"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",

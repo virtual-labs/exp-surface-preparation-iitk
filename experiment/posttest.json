@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. A well-prepared microstructure consists of",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Etch pits",
+        "b": "Scratches",
+        "c": "Flat surface with the presence of surface undulations",
+        "d": "Flat surface, absence of any scratches and etch pits."
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -15,16 +15,67 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2. Sectioning is important for",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Making a new material part",
+        "b": "Any material to be studied for the metallography",
+        "c": "Studying parts that have failed in service",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Metallography is important for",
+      "answers": {
+        "a": "Microstructural studies",
+        "b": "Structure-property correlations",
+        "c": "Both",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Identify the disadvantages of electropolishing.",
+      "answers": {
+        "a": "Preferential attack on grain boundaries",
+        "b": "Causes potential differences between different phases in a multi-phase alloy",
+        "c": "Both option A and B are correct",
+        "d": "None of the options A and B are correct."
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5.Pits are formed in a microstructure during.",
+      "answers": {
+        "a": "Grinding",
+        "b": "Paper polishing",
+        "c": "Etching",
+        "d": "All the above"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
