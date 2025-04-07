@@ -19,12 +19,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "2. Sectioning is important for",
+      "question": "2. What type of samplesare best suited for electropolishing?",
       "answers": {
-        "a": "Making a new material part",
-        "b": "Any material to be studied for the metallography",
-        "c": "Studying parts that have failed in service",
-        "d": "None of the above"
+        "a": "Hard ceramics",
+        "b": "Polymer composites",
+        "c": "Metallic and conductive materials",
+        "d": "Non-conductive oxides"
       },
       "explanations": {
         "a": "Explanation 1",
