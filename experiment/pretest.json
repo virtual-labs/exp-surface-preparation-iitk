@@ -85,6 +85,23 @@
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+    {
+      "question": "6. Which of the following is not a typical result of proper etching?",
+      "answers": {
+        "a": " Enhanced visibility of grain boundaries",
+        "b": "Identification of different phases",
+        "c": "Reduced surface roughness",
+        "d": "Revelation of microstructural defects"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
     }
   ]
 }
