@@ -89,7 +89,7 @@
     {
       "question": "6. Which of the following is not a typical result of proper etching?",
       "answers": {
-        "a": " Enhanced visibility of grain boundaries",
+        "a": "Enhanced visibility of grain boundaries",
         "b": "Identification of different phases",
         "c": "Reduced surface roughness",
         "d": "Revelation of microstructural defects"
@@ -101,6 +101,57 @@
         "d": "Explanation 2"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "7. What is the primary purpose of etching in metallographic sample preparation?",
+      "answers": {
+        "a": "To polish the sample surface",
+        "b": "To remove all impurities from the sample",
+        "c": "To reveal the microstructure by selectively attacking grain boundaries or phases",
+        "d": "To increase the hardness of the sample"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "8. Electropolishing is typically considered?",
+      "answers": {
+        "a": "Mechanical process",
+        "b": "Chemical-only process",
+        "c": "Electrochemical process",
+        "d": "Thermal process"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "9. In electropolishing, the sample to be polished acts as the:?",
+      "answers": {
+        "a": "Cathode",
+        "b": "Anode",
+        "c": "Electrolyte",
+        "d": "Ground"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
