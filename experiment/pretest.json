@@ -38,10 +38,10 @@
     {
       "question": "3. Choose the correct abrasive used for the cloth polishing.",
       "answers": {
-        "a": "CeO2",
-        "b": "Fe2O3",
-        "c": "Mg2O3",
-        "d": "Al2O3"
+        "a": "CeO<sub>2</sub>",
+        "b": "Fe<sub>2</sub>O<sub>3</sub>",
+        "c": "Mg<sub>2</sub>O<sub>3</sub>",
+        "d": "Al<sub>2</sub>O<sub>3</sub>"
       },
       "explanations": {
         "a": "Explanation 1",
@@ -72,8 +72,8 @@
     {
       "question": "5. The most widely used cold mounting material is",
       "answers": {
-        "a": "Al2O3",
-        "b": "Mg2O3",
+        "a": "Al<sub>2</sub>O<sub>3</sub>",
+        "b": "Mg<sub>2</sub>O<sub>3</sub>",
         "c": "Epoxy resin",
         "d": "All the above"
       },
