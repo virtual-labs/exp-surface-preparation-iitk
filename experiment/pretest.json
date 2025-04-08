@@ -10,7 +10,7 @@
         "d": "Grinding – Polishing- Etching- Microscopy"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
@@ -27,7 +27,7 @@
         "d": "None"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1 ",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
@@ -38,13 +38,13 @@
     {
       "question": "3. Choose the correct abrasive used for the cloth polishing.",
       "answers": {
-        "a": "CeO2",
-        "b": "Fe2O3",
-        "c": "Mg2O3",
-        "d": "Al2O3"
+        "a": "CeO<sub>2</sub>",
+        "b": "Fe<sub>2</sub>O<sub>3</sub>",
+        "c": "Mg<sub>2</sub>O<sub>3</sub>",
+        "d": "Al<sub>2</sub>O<sub>3</sub>"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
@@ -61,7 +61,7 @@
         "d": "Cut the sample into different parts"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
@@ -72,18 +72,86 @@
     {
       "question": "5. The most widely used cold mounting material is",
       "answers": {
-        "a": "Al2O3",
-        "b": "Mg2O3",
+        "a": "Al<sub>2</sub>O<sub>3</sub>",
+        "b": "Mg<sub>2</sub>O<sub>3</sub>",
         "c": "Epoxy resin",
         "d": "All the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "6. Which of the following is not a typical result of proper etching?",
+      "answers": {
+        "a": "Enhanced visibility of grain boundaries",
+        "b": "Identification of different phases",
+        "c": "Reduced surface roughness",
+        "d": "Revelation of microstructural defects"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "7. What is the primary purpose of etching in metallographic sample preparation?",
+      "answers": {
+        "a": "To polish the sample surface",
+        "b": "To remove all impurities from the sample",
+        "c": "To reveal the microstructure by selectively attacking grain boundaries or phases",
+        "d": "To increase the hardness of the sample"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "8. Electropolishing is typically considered?",
+      "answers": {
+        "a": "Mechanical process",
+        "b": "Chemical-only process",
+        "c": "Electrochemical process",
+        "d": "Thermal process"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "9. In electropolishing, the sample to be polished acts as the:?",
+      "answers": {
+        "a": "Cathode",
+        "b": "Anode",
+        "c": "Electrolyte",
+        "d": "Ground"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]

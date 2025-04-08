@@ -10,7 +10,7 @@
         "d": "Flat surface, absence of any scratches and etch pits."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
@@ -19,15 +19,15 @@
       "difficulty": "beginner"
     },
     {
-      "question": "2. Sectioning is important for",
+      "question": "2. What type of samplesare best suited for electropolishing?",
       "answers": {
-        "a": "Making a new material part",
-        "b": "Any material to be studied for the metallography",
-        "c": "Studying parts that have failed in service",
-        "d": "None of the above"
+        "a": "Hard ceramics",
+        "b": "Polymer composites",
+        "c": "Metallic and conductive materials",
+        "d": "Non-conductive oxides"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
@@ -44,7 +44,7 @@
         "d": "None"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
@@ -61,7 +61,7 @@
         "d": "None of the options A and B are correct."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
@@ -78,7 +78,7 @@
         "d": "All the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
