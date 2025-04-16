@@ -47,7 +47,7 @@ Polishing is the final step in producing a flat, scratch-free surface and mirror
 Mechanical polishing is frequently used to describe the final polishing procedures involving cloth-covered laps and suitable polishing abrasives, such as Al<sub>2</sub>O<sub>3</sub> slurry. The laps have either a rotating or a vibrating motion, and the specimens are held by hand, held mechanically, or merely confined within the polishing area. Polishing should be done in a relatively dust-free area, preferably removed from the area for sectioning, mounting, and rough grinding. Any contamination of a polishing lap by abrasive particles carried over from preceding operations or by dust, dirt, or other foreign matter in the air cannot be tolerated. Carryover because of improper cleaning between final polishing steps is another prime source of contamination. It is just as crucial for the operator to wash his/her hands meticulously as it is for him/her to remove all traces of polishing abrasive from the specimen before proceeding to the next finer polishing operation.<br>
 
 <center><image src="images/Picture2.png"></image></center><br>
-Figure 2. Schematic showing the working principle of mechanical polishing​ <br>
+<center>Figure 2. Schematic showing the working principle of mechanical polishing​ </center><br>
 
 <b>4.2 Electrolytic Polishing</b><br>
 Even with the most careful mechanical polishing, some disturbed metal, even a very small amount, will remain after the preparation of a metallographic specimen. This is no problem if the specimen is to be etched for structural investigation because etching is usually sufficient to remove the slight layer of disturbed metal. However, electrolytic or chemical polishing is preferred if the specimen is to be examined in the polished condition or if no surface disturbance can be tolerated. The basic principle involved in this technique is anodic dissolution of the sample's surface which results in a leveling and brightening of its surface.<br>
@@ -57,7 +57,7 @@ Electro polishing does not disturb any metal on the specimen surface and is idea
 Metals, especially stainless steel, and other alloys can have their surfaces treated using an electrochemical process called electropolishing. This procedure is intended to leave a metal surface with a smooth, polished, and frequently visually appealing finish by removing a predetermined amount of material. Electropolishing is frequently used in a variety of industries where a superior surface finish is essential, such as the medical, pharmaceutical, aerospace, and electronics sectors.<br>
 
 <center><image src="images/Picture3.png"></image></center><br>
-Figure 3. Schematic showing the working principle of electropolishing​<br>
+<center>Figure 3. Schematic showing the working principle of electropolishing​</center><br>
 
 <b>4.2.1 Principle</b><br>
 The foundation of electropolishing is the anodic dissolution principle, which involves using an electrolytic cell to selectively remove metal from a workpiece's surface. Electropolishing produces a smoother and more reflective finish by uniformly removing material from the entire surface, in contrast to traditional polishing techniques.<br>
