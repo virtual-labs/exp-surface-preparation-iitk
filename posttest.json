@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. A well-prepared microstructure consists of",
+      "answers": {
+        "a": "Etch pits",
+        "b": "Scratches",
+        "c": "Flat surface with the presence of surface undulations",
+        "d": "Flat surface, absence of any scratches and etch pits."
+      },
+      "explanations": {
+        "a": "This is an incorrect option because etch pits are artifacts that result from over-etching or surface damage, not a sign of a properly prepared microstructure.",
+        "b": "This is an incorrect option because scratches indicate surface damage from grinding or polishing, which can obscure or distort the true microstructure.",
+        "c": "This is an incorrect option because surface undulations indicate unevenness on the sample.",
+        "d": "This is the correct option. A well-prepared microstructure requires a smooth, defect-free surface so that polishing and etching reveal the true microstructural features without interference."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. What type of samples are best suited for electropolishing?",
+      "answers": {
+        "a": "Hard ceramics",
+        "b": "Polymer composites",
+        "c": "Metallic and conductive materials",
+        "d": "Non-conductive oxides"
+      },
+      "explanations": {
+        "a": "This is an incorrect option because hard samples such as ceramic are generally non-conductive.",
+        "b": "This is an incorrect option because most polymer composites are electrically insulating or only partially conductive.",
+        "c": "This is the correct option. Electropolishing is an electrochemical process that requires the sample to be electronically conductive so that anodic dissolution can occur uniformly.",
+        "d": "This is an incorrect option because electropolishing requires the sample to be electronically conductive."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Metallography is important for",
+      "answers": {
+        "a": "Microstructural studies",
+        "b": "Structure-property correlations",
+        "c": "Both",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "This option alone is not fully correct because metallography is not only about observing the microstructure.",
+        "b": "This option alone is not correct because metallography cannot directly determine properties without first examining the microstructure.",
+        "c": "This is the correct option. Metallography is essential for revealing grains, phases, and defects under the microscope, as well as for correlating microstructure with the material’s mechanical, thermal, and electrical properties.",
+        "d": "This option is not correct because metallography is used for microstructural studies and establishing structure-property correlations."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Identify the disadvantages of electropolishing.",
+      "answers": {
+        "a": "Preferential attack on grain boundaries",
+        "b": "Causes potential differences between different phases in a multi-phase alloy",
+        "c": "Both option A and B are correct",
+        "d": "None of the options A and B are correct."
+      },
+      "explanations": {
+        "a": "This option alone is not fully correct because it addresses only one of the disadvantages of electropolishing.",
+        "b": "This option alone is not fully correct because it addresses only one of the disadvantages of electropolishing.",
+        "c": "This is a correct option. Electropolishing may preferentially remove material at grain boundaries faster than within the grains, potentially exaggerating or distorting microstructural features. In addition, in multi-phase alloys, phases with different electrochemical potentials can dissolve at varying rates, resulting in uneven surface removal.",
+        "d": "This option is incorrect because both disadvantages are listed."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5.Pits are formed in a microstructure during.",
+      "answers": {
+        "a": "Grinding",
+        "b": "Paper polishing",
+        "c": "Etching",
+        "d": "All the above"
+      },
+      "explanations": {
+        "a": "This is an incorrect option because properly performed grinding does not intentionally create pits.",
+        "b": "This is an incorrect option because polishing with abrasive papers or cloths is intended to produce a smooth, scratch-free surface.",
+        "c": "This is the correct option. Etching selectively attacks certain regions of a polished sample, such as grain boundaries, phases, or defects, creating etch pits that reveal the microstructure.",
+        "d": "This is an incorrect option because etch pits are specifically formed during etching, not during grinding or polishing."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
