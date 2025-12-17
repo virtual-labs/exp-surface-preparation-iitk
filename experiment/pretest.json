@@ -27,10 +27,10 @@
         "d": "None"
       },
       "explanations": {
-        "a": "Swabbing is a recognised etching method in which the etchant is applied to the sample surface using a cotton swab, cloth, or soft applicator; however, other given options should also be considered.",
-        "b": "Immersion etching involves fully submerging the polished sample in an etchant for a controlled duration, ensuring uniform and reproducible surface reaction; however, other given options should also be considered.",
-        "c": "Both swabbing and immersion are widely recognized methods for etching metallic samples.",
-        "d": "Both swabbing and immersion are widely recognized methods for etching metallic samples."
+        "a": "This is an incorrect option. Swabbing is a recognised etching method in which the etchant is applied to the sample surface using a cotton swab, cloth, or soft applicator; however, other given options should also be considered.",
+        "b": "This is an incorrect option. Immersion etching involves fully submerging the polished sample in an etchant for a controlled duration, ensuring uniform and reproducible surface reaction; however, other given options should also be considered.",
+        "c": "This is the correct option. Both swabbing and immersion are widely recognized methods for etching metallic samples.",
+        "d": "This is an incorrect option. Both swabbing and immersion are widely recognized methods for etching metallic samples."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
